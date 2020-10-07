@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.screen {
+    display: flex;
+}
+
+.leftside {
+    flex 1;
+}
+
+.leftside img {
+    width: 80%;
+}
+
+.rightside {
+    width: 300px;
+}

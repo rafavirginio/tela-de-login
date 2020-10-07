@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.screen {
+    display: flex;
+}
+
+.leftside {
+    flex: 1;
+}
+
+.leftside img {
+    width: 80%;
+    height: auto;
+}
+
+.rightside {
+    width: 300px;
+    background-color: #999;
+}
