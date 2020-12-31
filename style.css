@@ -27,13 +27,14 @@ body {
 }
 
 .leftside img {
-    max-width: 500px;
+    width: 90%;
     height: auto;
+    margin: auto;
 }
 
 .rightside {
     width: 400px;
-    background-color: rgb(238, 183, 80);
+    background-color: rgb(245, 166, 74);
     padding: 60px;
 }
 
