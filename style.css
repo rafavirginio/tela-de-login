@@ -15,7 +15,6 @@ body {
 
 .screen {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .leftside {
@@ -26,7 +25,7 @@ body {
 }
 
 .leftside img {
-    width: 200px;
+    width: 300px;
     margin: auto;
 }
 
@@ -64,10 +63,16 @@ span {
 }
 
 
-/* desktop version */
+/* mobile version */
 
-@media screen and (min-width:800px) {
+@media screen and (max-width:600px) {
+    .screen {
+        display: inline;
+    }
     .leftside img {
+        width: 90%;
+    }
+    .rightside {
         width: 90%;
     }
 }
