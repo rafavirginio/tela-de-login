@@ -66,7 +66,7 @@ span {
 
 /* desktop version */
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:800px) {
     .leftside img {
         width: 90%;
     }
